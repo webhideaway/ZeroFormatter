@@ -134,12 +134,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ZeroFormatter.Interfaces\ZeroFormatter.Interfaces.csproj">
-      <Project>{c051f473-427f-4062-94fb-cae3fa460fc8}</Project>
-      <Name>ZeroFormatter.Interfaces</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

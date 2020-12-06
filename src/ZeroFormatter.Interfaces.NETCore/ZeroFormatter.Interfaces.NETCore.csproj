@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <VersionPrefix>1.6.4</VersionPrefix>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>ZeroFormatter.Interfaces</AssemblyName>
     <PackageId>ZeroFormatter.Interfaces.NETCore</PackageId>
   </PropertyGroup>
@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Runtime" Version="4.1.0" />
-    <PackageReference Include="System.Linq" Version="4.1.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
   </ItemGroup>
 
 </Project>
